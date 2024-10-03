@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthomas_docs=self.webpackChunkthomas_docs||[]).push([[9461],{3924:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/thomas-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
