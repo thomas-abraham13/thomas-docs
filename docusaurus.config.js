@@ -11,18 +11,17 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
+  organizationName: 'thomas-abraham13',
+  projectName: 'thomas-docs',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   // Set the production url of your site here
   url: 'https://thomas-abraham13.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/thomas-docs/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'thomas-abraham13',
-  projectName: 'thomas-docs',
-
+  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
