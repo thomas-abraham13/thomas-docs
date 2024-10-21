@@ -22,14 +22,14 @@
 
 <p align="center"> ![cdn1](https://raw.githubusercontent.com/thomas-abraham13/thomas-docs/refs/heads/main/static/img/cdn/cdn3.png) </p>
 
-### Benefits of using a CDN:
+### Benefits of using a CDN
 1. Improves Performance
 2. Reduces Bandwidth Costs
 3. Increases Content Availability
 4. [Improves Security](https://www.cloudflare.com/en-gb/learning/ddos/ddos-mitigation/)
 5. Scalability
 
-### Examples of CDNs in Use:
+### Examples of CDNs in Use
 - [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/cdn/)
 - [Akamai](https://www.akamai.com/solutions/content-delivery-network)
 - [Fastly](https://www.fastly.com/products/cdn)
