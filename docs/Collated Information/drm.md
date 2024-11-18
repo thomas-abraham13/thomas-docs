@@ -42,7 +42,13 @@ It is subset of MPEG DASH with a few extensions, along with a set of requirement
 #### [Playready](https://learn.microsoft.com/en-us/playready/overview/security-level)
 
 |Security Level|Purpose|Client Implementation|Version|
-|--------------|:-----:|:-------------------:|------:|
+|:------------:|:-----:|:-------------------:|:-----:|
 |SL150|For clients under development or under test. Not suitable for commercial content in a commercial scenario.|Any implementation is acceptable. Assets, Client Secrets, or Content Secrets are not protected at all against unauthorized use.|Any |
 |SL2000|For hardened devices and applications consuming commercial content.|For devices and applications.Assets, Client Secrets, or Content Secrets are protected through software or hardware means.|Any |
 |SL3000|For hardened devices with the highest security consuming the highest quality of commercial content.|For devices only.Assets, Client Secrets, and Content Secrets are protected through hardware means, using a Trusted Execution Environment (TEE) of the processor. Conformant to a superset of the Compliance and Robustness requirements.|PlayReady 3.0 or higher |
+
+
+#### [Widevine](https://www.expressplay.com/products/google-widevine-drm/)
+##### Divided into L1, L2 and L3.
+- Widevine DRM L1 offers the greatest level of content protection. Consequently it is usually mandated by content owners for premium content such as HD and Ultra HD. For a client device to display HD videos from a Widevine DRM secured service, it must be L1 certified.
+- Widevine DRM L2 and L3 certified devices display SD-quality videos regardless of subscription plan and device capabilities.
