@@ -10,7 +10,7 @@
 
 - In order for DRM to take effect without any wasted effort it has to happen during the Packaging stage shown below.
 
-<!-- <p align="center"> ![drm1](https://raw.githubusercontent.com/thomas-abraham13/thomas-docs/refs/heads/main/static/img/drm/drm1.png) </p> -->
+<p align="center"> ![drm1](https://raw.githubusercontent.com/thomas-abraham13/thomas-docs/refs/heads/main/static/img/drm/drm1.png) </p>
 
 ### DASH & HLS
 
@@ -20,7 +20,7 @@
 
 #### HDS - HTTP Dynamic Streaming
 
-<!-- <p align="center"> ![drm1](https://raw.githubusercontent.com/thomas-abraham13/thomas-docs/refs/heads/main/static/img/drm/drm2.png) </p> -->
+<p align="center"> ![drm1](https://raw.githubusercontent.com/thomas-abraham13/thomas-docs/refs/heads/main/static/img/drm/drm2.png) </p>
 
 ### Differences:
 1. **Encoding formats:** MPEG-DASH allows the use of any encoding standard. HLS, on the other hand, requires the use of [H.264](https://www.cloudflare.com/learning/video/what-is-h264-avc/) or H.265. Manifest files are of type *.mpd* for DASH and *.m3u8* for HLS.
