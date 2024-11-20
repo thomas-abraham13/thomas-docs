@@ -58,7 +58,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Thomas Abraham',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -86,7 +86,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
                 label: 'Docs',
@@ -95,7 +95,7 @@ const config = {
             ],
           },
           {
-            title: 'Links',
+            title: 'Social Links',
             items: [
               {
                 label: 'LinkedIn',
@@ -112,7 +112,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Even More Links',
             items: [
               {
                 label: 'GitHub',
