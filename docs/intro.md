@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # Documentation Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The documentation contains the processes I've used in the past to test video players and their associated functionality. The information also provides a brief overview into the inner working of technologies such as DRMs, CDNs and so on. 
 
-## Getting Started
+## Collated Information
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+
+## Deployment & Debugging
