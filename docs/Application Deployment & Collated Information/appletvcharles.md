@@ -10,7 +10,7 @@ Pre-requisites:
 
 - A C-type cable if you have an Apple TV 4th Gen device
 
-### Step 1:
+### Step 1: Reset Apple TV
 Go to Settings
 
 <p align="center"> ![appletv1](https://raw.githubusercontent.com/thomas-abraham13/thomas-docs/refs/heads/main/static/img/appletvcharles/appletv1.png) </p>
@@ -29,7 +29,7 @@ Reset & Update
 
 This process should take 20+ minutes every time you attempt it, I have found that just a Reset sometimes works on an Apple TV 4th (with C port) but it rarely works on the 5th Gen. In most cases if the device has been setup once before then just a Reset should suffice.
 
-### Step 2:
+### Step 2: Manual Configuration
 After your Apple TV has complete its reset <strong>🔴LEAVE IT ON THE HELLO PAGE🔴</strong> and launch Apple Configurator.
 
 If you have an Apple TV 4th Gen then connect it to your Mac using a C-type cable. If you have a 5th Gen then connect both your Mac and the device to the same network using an Ethernet cable.
