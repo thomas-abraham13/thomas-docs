@@ -18,3 +18,4 @@ This documentation collects processes I've used to test video players and their 
 ## Deployment & Debugging
 
 - [Using an Apple TV with a Charles Proxy certificate](./Application%20Deployment%20%26%20Collated%20Information/appletvcharles.md)
+- [Testing and debugging apps on Philips Titan OS](./Application%20Deployment%20%26%20Collated%20Information/philips-titan-os.md)
