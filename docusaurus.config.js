@@ -40,10 +40,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/thomas-abraham13/thomas-docs/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -55,12 +53,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/docusaurus.png',
       navbar: {
         title: 'Thomas Abraham',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Thomas Abraham documentation logo',
           src: 'img/logo.svg',
         },
         items: [

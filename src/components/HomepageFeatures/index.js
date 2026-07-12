@@ -4,30 +4,24 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'In',
+    title: 'Testing guides',
     Svg: require('@site/static/img/books.svg').default,
     description: (
-      <>
-      
-      </>
+      <>Repeatable processes for inspecting video playback, resolution, and application behaviour.</>
     ),
   },
   {
-    title: 'Sterquiliniis',
+    title: 'Streaming concepts',
     Svg: require('@site/static/img/light-bulb.svg').default,
     description: (
-      <>
-      
-      </>
+      <>Clear explanations of adaptive bitrate, frame rate, DRM, CDNs, and related technology.</>
     ),
   },
   {
-    title: 'Invenitur',
+    title: 'Practical reference',
     Svg: require('@site/static/img/toothbrush.svg').default,
     description: (
-      <>
-      
-      </>
+      <>Concise notes collected from real debugging and deployment work.</>
     ),
   },
 ];
@@ -51,8 +45,8 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((props) => (
+            <Feature key={props.title} {...props} />
           ))}
         </div>
       </div>
