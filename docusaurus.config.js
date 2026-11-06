@@ -1,7 +1,4 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
@@ -16,18 +13,16 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
-  // Set the production url of your site here
   url: 'https://thomas-abraham13.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/thomas-docs/',
-  
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  onBrokenLinks: 'throw',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -50,10 +45,28 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Docs moved out of folders with spaces in their names; keep old links working.
+        redirects: [
+          ['/docs/Collated Information/bitrate', '/docs/concepts/adaptive-bitrate'],
+          ['/docs/Collated Information/cdn', '/docs/concepts/cdn'],
+          ['/docs/Collated Information/drm', '/docs/concepts/drm'],
+          ['/docs/Collated Information/explainlike5', '/docs/concepts/explain-like-im-five'],
+          ['/docs/Collated Information/framerate', '/docs/concepts/frame-rate'],
+          ['/docs/Application Deployment & Collated Information/appletvcharles', '/docs/deployment/apple-tv-charles-proxy'],
+          ['/docs/Application Deployment & Collated Information/philips-titan-os', '/docs/deployment/philips-titan-os'],
+        ].map(([from, to]) => ({from, to})),
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus.png',
+      image: 'img/social-card.png',
       navbar: {
         title: 'Thomas Abraham',
         logo: {
@@ -63,7 +76,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Documentation',
           },
@@ -122,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Thomas Abraham Documentation. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Thomas Abraham. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,21 +1,22 @@
 ---
 sidebar_position: 1
+title: Introduction
+description: An overview of the video streaming and device testing notes on this site.
 ---
 
 # Documentation Introduction
 
 This documentation collects processes I've used to test video players and their associated functionality. It also provides brief overviews of technologies such as DRM, adaptive bitrate streaming, frame rates, and CDNs.
 
-## Collated Information
+## Streaming concepts
 
-- [Adaptive bitrate and achieved resolution](./Collated%20Information/bitrate.md)
-- [Content delivery networks](./Collated%20Information/cdn.md)
-- [Digital rights management](./Collated%20Information/drm.md)
-- [Explain it like I'm five](./Collated%20Information/explainlike5.md)
-- [Frame rate](./Collated%20Information/framerate.md)
+- [Adaptive bitrate and achieved resolution](./concepts/adaptive-bitrate.md)
+- [Content delivery networks](./concepts/cdn.md)
+- [Digital rights management](./concepts/drm.md)
+- [Frame rate](./concepts/frame-rate.md)
+- [Explain it like I'm five](./concepts/explain-like-im-five.md)
 
+## Deployment & debugging
 
-## Deployment & Debugging
-
-- [Using an Apple TV with a Charles Proxy certificate](./Application%20Deployment%20%26%20Collated%20Information/appletvcharles.md)
-- [Testing and debugging apps on Philips Titan OS](./Application%20Deployment%20%26%20Collated%20Information/philips-titan-os.md)
+- [Using an Apple TV with a Charles Proxy certificate](./deployment/apple-tv-charles-proxy.md)
+- [Testing and debugging apps on Philips Titan OS](./deployment/philips-titan-os.md)
